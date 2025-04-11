@@ -6,3 +6,28 @@
 .vscode/
 node_modules/
 *.db
+
+# Python
+*.pyc
+*.pyo
+__pycache__
+
+# Virtual environment
+venv/
+.env/
+
+# Docker
+*.log
+docker-compose.override.yml
+Dockerfile.*
+docker-compose.yml
+
+# WSL
+wsl-data/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
